@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Native Toolchains in Practice: Rolldown, Rspack, and the Future of Bundling'
-date: 2026-08-19 13:41:12 -0400
+date: 2026-08-19 11:52:08 -0400
 description: An engineering analysis of Rust-based build tools like Rolldown and Oxc,
   their performance benchmarks, and how they reshape Vite and web pipelines.
 categories:
@@ -16,7 +16,7 @@ tags:
 author: BIITS LLC
 ---
 
-*Published August 19, 2026 at 1:41 PM ET*
+*Published August 19, 2026 at 11:52 AM ET*
 
 Frontend build systems are undergoing their most structural rewrite since Node.js became the standard execution environment for web tooling. For years, JavaScript bundlers relied on Node.js runtimes to parse, transform, and bundle application code. While early bundlers solved basic modularity, they hit severe CPU and memory bottlenecks when operating on large enterprise codebases. The arrival of native tools written in Rust, such as [Rolldown](https://rolldown.rs/) and Rspack, marks a practical pivot in how frontend build pipelines process TypeScript and JavaScript modules.
 
