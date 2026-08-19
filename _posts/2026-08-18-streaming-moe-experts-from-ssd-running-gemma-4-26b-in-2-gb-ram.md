@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Streaming MoE Experts from SSD: Running Gemma 4 26B in 2 GB RAM'
-date: 2026-08-19 11:27:21 -0400
+date: 2026-08-18 13:35:47 -0400
 description: Discover how TurboFieldfare uses Swift 6.2 and Metal 4 to stream Gemma
   4 26B experts from SSD, enabling 26B model execution in 2 GB of RAM on Apple Silicon.
 categories:
@@ -17,7 +17,7 @@ tags:
 author: BIITS LLC
 ---
 
-*Published August 19, 2026 at 11:27 AM ET*
+*Published August 18, 2026 at 1:35 PM ET*
 
 Local large language model execution has long been constrained by available unified memory. When a model requires 14 GB on disk, traditional runtime engines expect to allocate at least that much RAM to hold every weight layer before evaluating a single prompt. However, [TurboFieldfare](https://github.com/drumih/turbo-fieldfare), an open-source engine built for Apple Silicon Macs, demonstrates that ultra-selective parameter streaming from SSD can fundamentally alter memory requirements. By taking advantage of the sparse architecture of Google's instruction-tuned Gemma 4 26B-A4B model, TurboFieldfare runs a 26-billion-parameter model using roughly 2 GB of system memory on an 8 GB Mac.
 

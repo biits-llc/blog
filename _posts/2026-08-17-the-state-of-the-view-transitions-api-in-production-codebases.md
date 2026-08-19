@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The State of the View Transitions API in Production Codebases
-date: 2026-08-19 10:31:16 -0400
+date: 2026-08-17 13:32:04 -0400
 description: An in-depth technical breakdown of browser support, cross-document navigations,
   dialog animations, and common pitfalls for the View Transitions API.
 categories:
@@ -15,7 +15,7 @@ tags:
 author: BIITS LLC
 ---
 
-*Published August 19, 2026 at 10:31 AM ET*
+*Published August 17, 2026 at 1:32 PM ET*
 
 Seamless page transitions used to require heavy JavaScript frameworks, complex layout calculations, or delicate CSS opacity hacks. With the widespread adoption of the View Transitions API, web developers can capture state snapshots before and after DOM updates, delegating render pipeline animations directly to the browser compositor.
 
