@@ -1,0 +1,23 @@
+title: BIITS Blog
+tagline: UI Engineering, AI & ML research, written by BIITS LLC
+description: >-
+  Original research and deep dives on UI engineering, AI, and machine learning,
+  published daily.
+author: BIITS LLC
+url: "https://biits-llc.github.io"
+baseurl: "/blog"
+
+theme: minima
+minima:
+  skin: classic
+
+timezone: America/New_York
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_excerpts: true
